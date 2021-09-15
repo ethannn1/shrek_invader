@@ -100,7 +100,7 @@ while running : # boucle infinie pour laisser la fenêtre ouverte
         meilleur_score=player.score
 
     screen.blit(font.render(str(player.score), True, (255,0,0)),(0,0))
-    screen.blit(font1.render("Meilleur score : "+str(meilleur_score), True, (255, 0, 0)), (320, 0))
+    screen.blit(font1.render("Meilleur score : "+str(meilleur_score), True, (255, 0, 0)), (250, 0))
     pygame.display.update() # pour ajouter tout changement à l'
 
 fichier_score = open("meilleur_score.txt", "w")
